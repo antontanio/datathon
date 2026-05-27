@@ -178,8 +178,8 @@ section{margin-bottom:24px}
       </div>
     </div>
 
-    <div>
-      <div class="card" style="margin-bottom:14px">
+    <div style="display:flex;flex-direction:column;gap:14px">
+      <div class="card">
         <div class="card-title">Predicted risk</div>
         <div class="result-center">
           <div class="rlabel">Probability of T2DM</div>
@@ -190,7 +190,7 @@ section{margin-bottom:24px}
         <div class="gticks"><span>0</span><span>25</span><span>50</span><span>75</span><span>100</span></div>
         <div class="gthresh">Decision threshold: <b>35%</b> — <span id="callout">—</span></div>
       </div>
-      <div class="card" style="background:#f8fafc">
+      <div class="card" style="background:#f8fafc;flex:1">
         <div class="card-title">Active risk factors</div>
         <div id="factors" style="font-size:13px;color:#8a93a0">—</div>
       </div>
